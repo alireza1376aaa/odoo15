@@ -39,7 +39,7 @@ patch(FileUploader.prototype, 'calendar/static/src/components/file_uploader/file
                 var file_Size= file.size
 
                 file_Size = Math.round(file_Size/1000000) 
-                var c = "The size of file \n" + file_name +" is = " + file_Size +"MB, \n which is more than our requested size. The maximum size sent should be 5MB."
+                var c = "The size of file \n" + file_name +" is = " + file_Size +"MB, \n which is more than our requested size. The maximum size sent should be 2MB."
                 Dialog.alert(this,c,{
                         onForceClose: function(){
                             return;
