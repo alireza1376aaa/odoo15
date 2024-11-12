@@ -1,0 +1,6 @@
+<odoo>
+  <data>
+    <menuitem name="Famous_Words" id="famous__words.menu_root" web_icon="famous__words,static/description/Icon.png"/>
+
+  </data>
+</odoo>
