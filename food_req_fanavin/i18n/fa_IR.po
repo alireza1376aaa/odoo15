@@ -1,0 +1,486 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* food_req_fanavin
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-08 08:07+0000\n"
+"PO-Revision-Date: 2024-10-08 08:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__message_needaction
+msgid "Action Needed"
+msgstr "اکشن مورد نیاز"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__activity_ids
+msgid "Activities"
+msgstr "فعالیت ها"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "دکوراسیون استثنایی فعالیت"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__activity_state
+msgid "Activity State"
+msgstr "وضعیت فعالیت"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "نماد نوع فعالیت"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Date_model.py:0
+#, python-format
+msgid "Count of food bigger than 2 "
+msgstr "تعداد غذاهای امروز بیشتر از 2 تا است"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_day__create_uid
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food__create_uid
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__create_uid
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_week__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_day__create_date
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food__create_date
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__create_date
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_week__create_date
+msgid "Created on"
+msgstr "ساخته شده توسط"
+
+#. module: food_req_fanavin
+#: model:ir.ui.menu,name:food_req_fanavin.date
+msgid "Date"
+msgstr "تاریخ"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Date_model.py:0
+#: code:addons/food_req_fanavin/models/Request_Food.py:0
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_day__day
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__day
+#: model:ir.ui.menu,name:food_req_fanavin.day_list
+#, python-format
+msgid "Day"
+msgstr "روز"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_day__display_name
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food__display_name
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__display_name
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_week__display_name
+msgid "Display Name"
+msgstr "نام"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Date_model.py:0
+#: code:addons/food_req_fanavin/models/Request_Food.py:0
+#, python-format
+msgid ""
+"Either this day is not in this week or the desired day is already filled"
+msgstr "یا این روز در این هفته نیست یا روز مورد نظر از قبل پر شده است"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Date_model.py:0
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_week__end_date
+#, python-format
+msgid "End Date"
+msgstr "روز پایانی"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__message_follower_ids
+msgid "Followers"
+msgstr "دنبال کنندگان"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "(شرکا)دنبال کنندگان"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,help:food_req_fanavin.field_food_req_fanavin_food_request__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.ui.menu,name:food_req_fanavin.food
+msgid "Food"
+msgstr "غذا"
+
+#. module: food_req_fanavin
+#: model:ir.ui.menu,name:food_req_fanavin.food_re_list
+msgid "Food Request"
+msgstr "سفارش غذا"
+
+#. module: food_req_fanavin
+#: model:ir.actions.act_window,name:food_req_fanavin.action_window_request
+msgid "Food Request Actions"
+msgstr "اکشن درخواست غذا"
+
+#. module: food_req_fanavin
+#: model:ir.actions.act_window,name:food_req_fanavin.action_window_food
+msgid "Food Request Food Actions"
+msgstr "اکشن درخواست غذاها"
+
+#. module: food_req_fanavin
+#: model:ir.actions.act_window,name:food_req_fanavin.action_window_week
+msgid "Food Request week Actions"
+msgstr "اکشن درخواست غذا هفته"
+
+#. module: food_req_fanavin
+#: model:ir.module.category,name:food_req_fanavin.module_category_food
+msgid "Food Res"
+msgstr "غذا انتخابی"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Date_model.py:0
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_day__food_id
+#, python-format
+msgid "Food Select"
+msgstr "انتخاب غذا"
+
+#. module: food_req_fanavin
+#: model:ir.actions.client,name:food_req_fanavin.sale_action_demo
+#: model:ir.ui.menu,name:food_req_fanavin.menu_sale_demo
+msgid "Food Today"
+msgstr "غذاهای امروز"
+
+#. module: food_req_fanavin
+#: model:ir.ui.menu,name:food_req_fanavin.menu_root
+msgid "Food_req_fanavin"
+msgstr "تقاضا غذا"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_day__id
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food__id
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__id
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_week__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,help:food_req_fanavin.field_food_req_fanavin_food_request__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,help:food_req_fanavin.field_food_req_fanavin_food_request__message_needaction
+#: model:ir.model.fields,help:food_req_fanavin.field_food_req_fanavin_food_request__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "در صورت علامت زدن، پیام‌های جدید به توجه شما نیاز دارند."
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,help:food_req_fanavin.field_food_req_fanavin_food_request__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "اگر علامت زده شود، برخی از پیام ها دارای خطای تحویل هستند."
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_day____last_update
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food____last_update
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request____last_update
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_week____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_day__write_uid
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food__write_uid
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__write_uid
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_week__write_uid
+msgid "Last Updated by"
+msgstr "اخرین ویرایش توسط"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_day__write_date
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food__write_date
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__write_date
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_week__write_date
+msgid "Last Updated on"
+msgstr "اخرین ویرایش در"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Food.py:0
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food__name
+#, python-format
+msgid "Name Food"
+msgstr "اسم غذا"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Food.py:0
+#: model:ir.model.fields.selection,name:food_req_fanavin.selection__food_req_fanavin_food__type_food__en
+#, python-format
+msgid "No Rice"
+msgstr "خوراک"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,help:food_req_fanavin.field_food_req_fanavin_food_request__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,help:food_req_fanavin.field_food_req_fanavin_food_request__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,help:food_req_fanavin.field_food_req_fanavin_food_request__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.ui.menu,name:food_req_fanavin.request
+msgid "Request"
+msgstr "درخواست"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Food.py:0
+#: model:ir.model.fields.selection,name:food_req_fanavin.selection__food_req_fanavin_food__type_food__ir
+#, python-format
+msgid "Rice"
+msgstr "چلو"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Request_Food.py:0
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__food_id
+#, python-format
+msgid "Select Food"
+msgstr "انتخاب غذا"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Food.py:0
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food__type_food
+#, python-format
+msgid "Select Type Food"
+msgstr "انتخاب نوع غذا"
+
+#. module: food_req_fanavin
+#: model_terms:ir.ui.view,arch_db:food_req_fanavin.Form_food
+#: model_terms:ir.ui.view,arch_db:food_req_fanavin.form_day
+msgid "Select_day"
+msgstr "انتخاب روز"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Date_model.py:0
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_week__start_date
+#, python-format
+msgid "Start Date"
+msgstr "تاریخ شروع"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,help:food_req_fanavin.field_food_req_fanavin_food_request__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Date_model.py:0
+#: model:ir.model.fields,help:food_req_fanavin.field_food_req_fanavin_week__start_date
+#, python-format
+msgid ""
+"This amount of date should be selected only on Saturday and it is not "
+"possible to set our date before today"
+msgstr ""
+"این فیلد باید فقط روز شنبه انتخاب شود و امکان تعیین تاریخ ما قبل از امروز "
+"وجود ندارد"
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,help:food_req_fanavin.field_food_req_fanavin_food_request__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: food_req_fanavin
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Request_Food.py:0
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__user_id
+#, python-format
+msgid "User"
+msgstr "کاربر"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Date_model.py:0
+#: code:addons/food_req_fanavin/models/Request_Food.py:0
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_day__week_id
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food_request__week_id
+#: model:ir.ui.menu,name:food_req_fanavin.week_list
+#, python-format
+msgid "Week"
+msgstr "هفته"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Date_model.py:0
+#, python-format
+msgid "Your Food cant type same"
+msgstr "غذای انتخابی باید شامل خوراک و پلو باشد"
+
+#. module: food_req_fanavin
+#: model:res.groups,name:food_req_fanavin.food_request_group_manager
+msgid "admin"
+msgstr "ادمین"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Date_model.py:0
+#, python-format
+msgid "day"
+msgstr "روز"
+
+#. module: food_req_fanavin
+#: model:ir.actions.act_window,name:food_req_fanavin.action_window_day
+msgid "food action day"
+msgstr "اکشن روز غذا"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Request_Food.py:0
+#, python-format
+msgid "food_id"
+msgstr "غذا"
+
+#. module: food_req_fanavin
+#: model:ir.model,name:food_req_fanavin.model_food_req_fanavin_day
+msgid "food_req_fanavin.day"
+msgstr "درخواست روز غذا"
+
+#. module: food_req_fanavin
+#: model:ir.model,name:food_req_fanavin.model_food_req_fanavin_food
+msgid "food_req_fanavin.food"
+msgstr "درخواست غذا"
+
+#. module: food_req_fanavin
+#: model:ir.model,name:food_req_fanavin.model_food_req_fanavin_food_request
+msgid "food_req_fanavin.food_request"
+msgstr "سفارش غذا"
+
+#. module: food_req_fanavin
+#: model:ir.model,name:food_req_fanavin.model_food_req_fanavin_week
+msgid "food_req_fanavin.weeks"
+msgstr "هفته انتخاب غذا"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Food.py:0
+#, python-format
+msgid "name"
+msgstr "نام"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Food.py:0
+#: model:ir.model.fields,field_description:food_req_fanavin.field_food_req_fanavin_food__day_ids
+#, python-format
+msgid "select day"
+msgstr "انتخاب روز"
+
+#. module: food_req_fanavin
+#: code:addons/food_req_fanavin/models/Date_model.py:0
+#, python-format
+msgid "start_date"
+msgstr "انتخاب تاریخ"
+
+#. module: food_req_fanavin
+#: model_terms:ir.ui.view,arch_db:food_req_fanavin.model_name_view_form
+msgid "string"
+msgstr "زبانه"
+
+#. module: food_req_fanavin
+#: model:res.groups,name:food_req_fanavin.food_request_group_user
+msgid "user"
+msgstr "کاربر"
+
+#. module: food_req_fanavin
+#. openerp-web
+#: code:addons/food_req_fanavin/static/src/xml/custom.xml:0
+#, python-format
+msgid "تعداد غذا های امروز"
+msgstr ""

@@ -1,0 +1,67 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="widjet_odoo15.list">
+      <field name="name">widjet_odoo15 list</field>
+      <field name="model">widjet_odoo15.widjet_odoo15</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name" widget="custom_alireza"/>
+          <field name="value"/>
+          <field name="value2"/>
+          <!-- <button name="salam" type='object' class="fa fa-arrow-right oe_link"/> -->
+        </tree>
+      </field>
+    </record>
+
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="widjet_odoo15.action_window">
+      <field name="name">widjet_odoo15 window</field>
+      <field name="res_model">widjet_odoo15.widjet_odoo15</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <!-- server action to the one above -->
+
+    <record model="ir.actions.server" id="widjet_odoo15.action_server">
+      <field name="name">widjet_odoo15 server</field>
+      <field name="model_id" ref="model_widjet_odoo15_widjet_odoo15"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+
+
+<!--     
+    <record model="ir.actions.act_window" id="mail.activity_fppppf">
+      <field name="name">mail_activitys_pop</field>
+      <field name="res_model">mail.activity</field>
+      <field name="view_mode">tree,form</field>
+    </record> -->
+
+    <!-- Top menu item -->
+
+    <menuitem name="widjet_odoo15" id="widjet_odoo15.menu_root"/>
+
+    <!-- menu categories -->
+
+    <menuitem name="Menu 1" id="widjet_odoo15.menu_1" parent="widjet_odoo15.menu_root"/>
+    <menuitem name="Menu 2" id="widjet_odoo15.menu_2" parent="widjet_odoo15.menu_root"/>
+
+    <!-- actions -->
+
+    <menuitem name="List" id="widjet_odoo15.menu_1_list" parent="widjet_odoo15.menu_1"
+              action="widjet_odoo15.action_window"/>
+
+
+  </data>
+</odoo>

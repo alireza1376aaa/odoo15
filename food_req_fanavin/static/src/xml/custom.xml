@@ -1,0 +1,12 @@
+<templates>
+   <t t-name="SaleCust">
+      <div>
+        <center>
+            <h1 id="header_food_re">تعداد غذا های امروز</h1>
+            <h2 id="Food_1"></h2>
+            <h2 id="Food_2"></h2>
+        </center>
+      </div>
+   </t>
+
+</templates>

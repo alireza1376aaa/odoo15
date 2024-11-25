@@ -1,0 +1,56 @@
+<!-- search.xml -->
+<odoo>
+    <data>
+        <record id="mail_activity_search" model="ir.ui.view">
+            <field name="name">mail.activity.search</field>
+            <field name="model">mail.activity</field>
+            <field name="arch" type="xml">
+                <search position="inside">
+                    <searchpanel>
+                        <button class="btn btn-primary" string="salam" name="salam" type="object" />
+                        <field name="res_model_id" />
+                        <field name="activity_type_id" />
+
+                    </searchpanel>
+                </search>
+            </field>
+        </record>
+
+        <record id="mail_activity_button" model="ir.ui.view">
+            <field name="inherit_id" ref="mail.mail_activity_view_tree" />
+            <field name="model">mail.activity</field>
+            <field name="name">mail.activity.view.tree.today</field>
+            <field name="priority">320</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//tree" position="inside">
+                        <!-- <header> -->
+                            <button class="btn btn-primary" string="salam" name="salam" type="object" />
+                        <!-- </header> -->
+                    </xpath>
+                </data>
+            </field>
+
+        </record>
+
+
+        <!-- <record id="mail.mail_activity_view_search_custom" model="ir.ui.view">
+            <field name="inherit_id" ref="mail.mail_activity_view_search" />
+            <field name="model">mail.activity</field>
+            <field name="name">mail.activity.view.tree.today</field>
+            <field name="type">search</field>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//field[@name='res_model']" position="after">
+                        <filter name="date_deadline" string="Project"
+                            domain="[('date_deadline', '&gt;', context_today().strftime('%Y-%m-%d'))]" />
+                    </xpath>
+                </data>
+            </field>
+
+        </record> -->
+
+
+    </data>
+</odoo>

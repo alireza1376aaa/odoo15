@@ -1,0 +1,42 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="food_req_fanavin.list_week">
+      <field name="name">food_request_week</field>
+      <field name="model">food_req_fanavin.week</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="start_date"/>
+          <field name="end_date"/>
+        </tree>
+      </field>
+    </record>
+
+
+   <record model="ir.ui.view" id="food_req_fanavin.form_week">
+      <field name="name">food_request_week</field>
+      <field name="model">food_req_fanavin.week</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+                <field name="start_date" required="1"/>
+                <field name="end_date" required="1"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="food_req_fanavin.action_window_week">
+      <field name="name">Food Request week Actions</field>
+      <field name="res_model">food_req_fanavin.week</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+  </data>
+</odoo>

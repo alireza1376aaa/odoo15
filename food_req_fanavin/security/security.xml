@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<odoo>
+
+    <record model="ir.module.category" id="module_category_food">
+        <field name="name">Food Res</field>
+        <field name="sequence">23</field>
+    </record>
+
+    <record model="res.groups" id="food_request_group_user">
+        <field name="name">user</field>
+        <field name="category_id" ref="module_category_food"/>
+        <field name="implied_ids" eval="[Command.link(ref('base.group_user'))]"/>
+
+    </record>
+
+    <record model="res.groups" id="food_request_group_manager">
+        <field name="name">admin</field>
+        <field name="category_id" ref="module_category_food"/>
+        <field name="implied_ids" eval="[Command.link(ref('base.group_user'))]"/>
+
+    </record>
+
+   <record model="ir.rule" id="food_record_rule">
+        <field name="name">Blog: food</field>
+        <field name="model_id" ref="model_food_req_fanavin_food_request"/>
+        <field name="domain_force">['|', ('user_id', '=', user.id), ('user_id', '=', False)]</field>
+        <field name="groups" eval="[(4, ref('food_request_group_user'))]"/>
+    </record>
+</odoo>

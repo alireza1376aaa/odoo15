@@ -1,0 +1,41 @@
+<!-- custom_template.xml -->
+<!-- custom_template.xml -->
+<templates>
+  <t t-name="PopUpTemplate">
+    <div>
+      <t t-if="message.massage">
+        <center>
+          <h3>
+            <span t-esc="message.massage" />
+          </h3>
+        </center>
+      </t>
+      <t t-else="">
+        <t t-foreach="message" t-as="variable">
+          <div class="card mt-4">
+            <div class="card-header text-right" dir="rtl">
+              <t t-esc="variable['rec_name']" />
+            </div>
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                <t t-esc="variable['activity_type']" />
+              </h4>
+              <h6 class="card-title text-right" dir="rtl">
+                <t t-esc="variable['summary']" />
+              </h6>
+
+              <p class="card-text text-right" dir="rtl">
+                <t t-esc="variable['note']" />
+              </p>
+              <p class="text-center text-monospace">
+                <t t-esc="variable['date_deadline']" />
+              </p>
+              <a t-att-href="variable['link']" class="btn btn-primary w-100">مشاهده جزئیات پیام</a>
+
+            </div>
+          </div>
+        </t>
+      </t>    
+    </div>
+  </t>
+</templates>

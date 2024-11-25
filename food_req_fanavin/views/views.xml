@@ -1,0 +1,31 @@
+<odoo>
+  <data>
+
+    <!-- Top menu item -->
+
+    <menuitem name="Food_req_fanavin" id="food_req_fanavin.menu_root" web_icon="food_req_fanavin,static/description/Icon.png"/>
+
+    <!-- menu categories -->
+    <menuitem name="Request" id="food_req_fanavin.request" parent="food_req_fanavin.menu_root"/>
+    <menuitem name="Date" id="food_req_fanavin.date" parent="food_req_fanavin.menu_root" groups='food_request_group_manager'/>
+    <menuitem name="Food" id="food_req_fanavin.food" parent="food_req_fanavin.menu_root" action="food_req_fanavin.action_window_food" groups='food_request_group_manager'/>
+
+    <!-- actions -->
+
+    <menuitem name="Week" id="food_req_fanavin.week_list" parent="food_req_fanavin.date"
+              action="food_req_fanavin.action_window_week"/>
+    <menuitem name="Day" id="food_req_fanavin.day_list" parent="food_req_fanavin.date"
+                  action="food_req_fanavin.action_window_day"/>
+
+
+    <record id="sale_action_demo" model="ir.actions.client">
+       <field name="name">سفارش غذای امروز</field>
+       <field name="tag">sale_cust</field>
+       <field name="target">new</field>
+    </record>
+    <menuitem name="Food Request" id="food_req_fanavin.food_re_list" parent="food_req_fanavin.request"
+                  action="food_req_fanavin.action_window_request"/>
+      <menuitem id="menu_sale_demo"  action="sale_action_demo"
+            name="Food Today" parent="food_req_fanavin.request" groups='food_request_group_manager'/>
+  </data>
+</odoo>
